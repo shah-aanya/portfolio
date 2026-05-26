@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 290" fill="none">
+  <!-- Drop shadow -->
+  <rect x="4" y="6" width="476" height="284" rx="7" fill="#2C2C2C" fill-opacity="0.12"/>
+
+  <!-- Envelope body (front face) -->
+  <rect width="480" height="290" rx="6" fill="#6B7C45"/>
+
+  <!-- Interior seen through open top — gradient suggests depth going into envelope -->
+  <rect x="1" y="0" width="478" height="80" rx="5 5 0 0"
+    fill="#8FA85C" fill-opacity="0.55"/>
+
+  <!-- Crease line: interior meets the front face of the envelope -->
+  <line x1="0" y1="80" x2="480" y2="80"
+    stroke="#3A4820" stroke-width="1.5" stroke-opacity="0.30"/>
+
+  <!-- Left inner wall shadow (open envelope has visible inside walls) -->
+  <rect x="0" y="0" width="10" height="290" rx="5 0 0 5"
+    fill="#2C2C2C" fill-opacity="0.12"/>
+
+  <!-- Right inner wall shadow -->
+  <rect x="470" y="0" width="10" height="290" rx="0 5 5 0"
+    fill="#2C2C2C" fill-opacity="0.12"/>
+
+  <!-- Bottom fold crease — the only fold visible from front when envelope is open -->
+  <path d="M0,290 L240,178 L480,290"
+    fill="#4A5E2E" fill-opacity="0.75"/>
+
+  <!-- Bottom fold crease edge line -->
+  <path d="M0,290 L240,178 L480,290"
+    stroke="#3A4820" stroke-width="1" stroke-opacity="0.30" fill="none"/>
+
+  <!-- Outer border -->
+  <path d="M0,0 L0,284 Q0,290 6,290 L474,290 Q480,290 480,284 L480,0"
+    stroke="#3A4820" stroke-width="1.5" fill="none"/>
+
+  <!-- Open top lip edge -->
+  <line x1="0" y1="0" x2="480" y2="0" stroke="#3A4820" stroke-width="2"/>
+
+  <!-- Address lines -->
+  <line x1="28" y1="185" x2="200" y2="185" stroke="#4A5828" stroke-width="2.5" stroke-linecap="round" stroke-opacity="0.50"/>
+  <line x1="28" y1="205" x2="178" y2="205" stroke="#4A5828" stroke-width="2.5" stroke-linecap="round" stroke-opacity="0.50"/>
+  <line x1="28" y1="225" x2="152" y2="225" stroke="#4A5828" stroke-width="2.5" stroke-linecap="round" stroke-opacity="0.50"/>
+
+  <!-- Postmark circle -->
+  <circle cx="368" cy="196" r="42" stroke="#4A5828" stroke-width="1.5" stroke-dasharray="4 3" stroke-opacity="0.55"/>
+  <line x1="333" y1="185" x2="403" y2="185" stroke="#4A5828" stroke-width="1.5" stroke-opacity="0.55"/>
+  <line x1="333" y1="196" x2="403" y2="196" stroke="#4A5828" stroke-width="1.5" stroke-opacity="0.55"/>
+  <line x1="333" y1="207" x2="403" y2="207" stroke="#4A5828" stroke-width="1.5" stroke-opacity="0.55"/>
+
+  <!-- Stamp placeholder (decorative) -->
+  <rect x="406" y="130" width="56" height="74" rx="3"
+    stroke="#4A5828" stroke-width="1.5" stroke-opacity="0.45" fill="#5A6A38" fill-opacity="0.25"/>
+  <line x1="406" y1="146" x2="462" y2="146" stroke="#4A5828" stroke-width="1" stroke-opacity="0.25"/>
+  <line x1="406" y1="160" x2="462" y2="160" stroke="#4A5828" stroke-width="1" stroke-opacity="0.25"/>
+
+  <!-- Stitching along bottom -->
+  <line x1="16" y1="283" x2="464" y2="283"
+    stroke="#3A4820" stroke-opacity="0.40" stroke-width="1.5"
+    stroke-dasharray="7 5" stroke-linecap="round"/>
+  <circle cx="16"  cy="283" r="4" fill="#3A4820" fill-opacity="0.55"/>
+  <circle cx="464" cy="283" r="4" fill="#3A4820" fill-opacity="0.55"/>
+</svg>

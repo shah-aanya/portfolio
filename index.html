@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aanya Shah — Product Designer</title>
+  <meta name="description" content="Product designer crafting experiences people actually enjoy using.">
+
+  <!-- Preload heaviest font weight (above-fold hero text) -->
+  <link rel="preload" href="assets/fonts/playfair-display-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ─── Navigation ─────────────────────────────────── -->
+  <nav class="nav" aria-label="Main navigation">
+    <div class="nav-pill-container">
+      <a href="#work"            class="nav-label">Work</a>
+      <a href="#about"           class="nav-label">About</a>
+      <a href="mailto:marsaanya@gmail.com" class="nav-label">Contact</a>
+    </div>
+  </nav>
+
+  <!-- ─── Hero ───────────────────────────────────────── -->
+  <section class="hero" aria-label="Introduction">
+
+    <div class="hero-sparkle hero-sparkle--tl" aria-hidden="true"></div>
+    <div class="hero-sparkle hero-sparkle--tr" aria-hidden="true"></div>
+    <div class="hero-sparkle hero-sparkle--ml" aria-hidden="true"></div>
+    <div class="hero-sparkle hero-sparkle--mr" aria-hidden="true"></div>
+
+    <div class="hero-text">
+      <h1 class="hero-name">Aanya Shah's</h1>
+      <p class="hero-tagline">D E S I G N &nbsp;&nbsp; J O U R N E Y</p>
+    </div>
+
+
+  </section>
+
+  <!-- ─── About (Bento) ──────────────────────────────── -->
+  <section class="bento-section" id="about" aria-labelledby="about-heading">
+    <h2 class="section-heading" id="about-heading">A little about me</h2>
+
+    <div class="bento-grid">
+
+      <!-- Panel 1: For Sanity (Tall Left, Olive) -->
+      <div class="bento-card bento-card--sanity" aria-label="Personal interests">
+        <span class="bento-label">For Sanity</span>
+        <p class="bento-body">Travel fills me up. Yoga keeps me grounded. Both remind me to slow down and actually look at things.</p>
+        <p class="bento-postcards-intro">Some postcards I designed ✉</p>
+        <div class="bento-postcards">
+          <div class="bento-postcard bento-postcard--back">
+            <img src="assets/images/postcard1.png" alt="Greetings from San Francisco postcard">
+          </div>
+          <div class="bento-postcard bento-postcard--front">
+            <img src="assets/images/postcard2.png" alt="Greetings from Morro Bay postcard">
+          </div>
+        </div>
+      </div>
+
+      <!-- Panel 2: Learning (Wide Top-Right, Orange) -->
+      <div class="bento-card bento-card--learning" aria-label="Learning">
+        <span class="bento-label">Learning</span>
+        <p class="bento-body">Always picking up something new.</p>
+        <div class="bento-pills">
+          <span class="bento-pill">Midjourney</span>
+          <span class="bento-pill">Visual Design</span>
+          <span class="bento-pill">Problem Solving</span>
+          <span class="bento-pill">Usability Testing</span>
+          <span class="bento-pill">User Research</span>
+          <span class="bento-pill">User Experience</span>
+          <span class="bento-pill">Product Thinking</span>
+        </div>
+      </div>
+
+      <!-- Panel 3: Reading (Square, Cream) -->
+      <div class="bento-card bento-card--reading" aria-label="Reading">
+        <span class="bento-label">Reading</span>
+        <div class="bento-book">
+          <div class="bento-book-art">
+            <div class="bba-circle bba-circle--lg"></div>
+            <div class="bba-circle bba-circle--md"></div>
+            <div class="bba-line"></div>
+          </div>
+          <p class="bento-book-title">Design as Art</p>
+          <p class="bento-book-author">Bruno Munari</p>
+        </div>
+      </div>
+
+      <!-- Panel 4: Education (Square, Olive) -->
+      <div class="bento-card bento-card--education" aria-label="Education">
+        <span class="bento-label">Education</span>
+        <div class="bento-edu">
+          <div class="bento-edu-badge">CP</div>
+          <p class="bento-edu-school">California Polytechnic State University</p>
+          <p class="bento-edu-major">Graphic Communication</p>
+          <p class="bento-edu-note">Concentrating in UX/UI Design</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ─── Work (Case Studies) ────────────────────────── -->
+  <section class="work-section" id="work" aria-labelledby="work-heading">
+    <h2 class="section-heading" id="work-heading">Selected work</h2>
+
+    <div class="work-grid">
+
+      <article class="work-card" aria-label="PoliPatch project">
+        <div class="work-card-img">
+          <img src="assets/images/web1.png" alt="PoliPatch website screenshot" loading="lazy">
+        </div>
+        <div class="work-card-body">
+          <span class="work-card-tag">Editorial Design</span>
+          <h3 class="work-card-title">PoliPatch</h3>
+          <p class="work-card-desc">A political archive publication featuring articles, featured stories, and a curated news experience.</p>
+          <a href="https://polipatch.org/" class="cta-button" target="_blank" rel="noopener">View Project →</a>
+        </div>
+      </article>
+
+      <article class="work-card" aria-label="Environmental Science World project">
+        <div class="work-card-img">
+          <img src="assets/images/web5.png" alt="Environmental Science World website screenshot" loading="lazy">
+        </div>
+        <div class="work-card-body">
+          <span class="work-card-tag">Web Design</span>
+          <h3 class="work-card-title">Environmental Science Study Guide</h3>
+          <p class="work-card-desc">An educational resource hub exploring environmental science through interactive units, current events, and study guides.</p>
+          <a href="https://porfoliodesigns.wixsite.com/apesstudyguide" class="cta-button" target="_blank" rel="noopener">View Project →</a>
+        </div>
+      </article>
+
+      <article class="work-card" aria-label="Active Circle project">
+        <div class="work-card-img">
+          <img src="assets/images/web3.png" alt="Active Circle website screenshot" loading="lazy">
+        </div>
+        <div class="work-card-body">
+          <span class="work-card-tag">Web Design</span>
+          <h3 class="work-card-title">Active Circle</h3>
+          <p class="work-card-desc">A community platform for building business connections, featuring an events calendar and group resources.</p>
+          <a href="https://activecircle.wixsite.com/website-2" class="cta-button" target="_blank" rel="noopener">View Project →</a>
+        </div>
+      </article>
+
+      <article class="work-card" aria-label="Smile Bright project">
+        <div class="work-card-img">
+          <img src="assets/images/web 4.png" alt="Smile Bright website screenshot" loading="lazy">
+        </div>
+        <div class="work-card-body">
+          <span class="work-card-tag">Non-profit</span>
+          <h3 class="work-card-title">Smile Bright</h3>
+          <p class="work-card-desc">Website for a student-run non-profit on a mission to keep adolescents smiling bright through dental health education.</p>
+          <a href="https://porfoliodesigns.wixsite.com/smile-bright" class="cta-button" target="_blank" rel="noopener">View Project →</a>
+        </div>
+      </article>
+
+      <article class="work-card" aria-label="Cal Poly GraCom Facebook project">
+        <div class="work-card-img">
+          <div class="work-carousel" data-carousel>
+            <div class="carousel-track">
+              <img src="assets/images/fb post1.png" alt="GraCom Facebook post 1" loading="lazy">
+              <img src="assets/images/fb psot1.5.png" alt="GraCom Facebook post 2" loading="lazy">
+              <img src="assets/images/fb post 3.png" alt="GraCom Facebook post 3" loading="lazy">
+              <img src="assets/images/fb post 4.png" alt="GraCom Facebook post 4" loading="lazy">
+            </div>
+            <button class="carousel-btn carousel-btn--prev" aria-label="Previous image">&#8249;</button>
+            <button class="carousel-btn carousel-btn--next" aria-label="Next image">&#8250;</button>
+            <div class="carousel-dots" aria-hidden="true"></div>
+          </div>
+        </div>
+        <div class="work-card-body">
+          <span class="work-card-tag">Social Media Design</span>
+          <h3 class="work-card-title">Cal Poly GrC</h3>
+          <p class="work-card-desc">Facebook posts designed for the Graphic Communication Department at California Polytechnic State University.</p>
+        </div>
+      </article>
+
+      <article class="work-card" aria-label="HerCampus Instagram project">
+        <div class="work-card-img">
+          <div class="work-carousel" data-carousel>
+            <div class="carousel-track">
+              <img src="assets/images/insta1.png" alt="HerCampus Instagram post 1" loading="lazy">
+              <img src="assets/images/insta3.jpg" alt="HerCampus Instagram post 2" loading="lazy">
+              <img src="assets/images/insta4.jpg" alt="HerCampus Instagram post 3" loading="lazy">
+            </div>
+            <button class="carousel-btn carousel-btn--prev" aria-label="Previous image">&#8249;</button>
+            <button class="carousel-btn carousel-btn--next" aria-label="Next image">&#8250;</button>
+            <div class="carousel-dots" aria-hidden="true"></div>
+          </div>
+        </div>
+        <div class="work-card-body">
+          <span class="work-card-tag">Social Media Design</span>
+          <h3 class="work-card-title">HerCampus Cal Poly</h3>
+          <p class="work-card-desc">Instagram posts designed for HerCampus Cal Poly, including event promotions and weekly updates.</p>
+        </div>
+      </article>
+
+    </div>
+
+  </section>
+
+  <!-- ─── Footer ─────────────────────────────────────── -->
+  <footer class="site-footer">
+    <p>Made with care · <a href="mailto:marsaanya@gmail.com">marsaanya@gmail.com</a></p>
+  </footer>
+
+  <!-- Scripts: exact load order required, no async -->
+  <script src="assets/js/gsap.min.js"></script>
+  <script src="assets/js/ScrollTrigger.min.js"></script>
+  <script src="animations.js"></script>
+
+</body>
+</html>
